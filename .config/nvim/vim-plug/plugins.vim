@@ -32,7 +32,9 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --producti
 call plug#end()
 
 
-let g:fzf_layout = { 'down': '~40%' }
+ let g:fzf_layout = { 'down': '~40%' }
+" let g:fzf_colors =
+" \ { 'bg': ['bg', 'NONE']}
 
 " colorscheme base16-default-dark
 let g:tokyonight_style = "night"
